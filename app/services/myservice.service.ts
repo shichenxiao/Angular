@@ -5,7 +5,7 @@ export class MyserviceService {
 
   constructor() { }
 
-  list = [];
+  list :any;
   
 //get(url:number){
  // $.ajax({
@@ -15,13 +15,13 @@ export class MyserviceService {
  // })
 //}
 
- addData(num:number){
+ addData(key:string,data:any){
    //console.log(10);
-  this.list.push(num);
+    localStorage.setItem(key,data);
   }
-index:number;
-getIndex(i){
-  this.index = i;
+  getData(key){
+    this.list=localStorage.getItem(key);
+    return this.list;
 }
 //localStorage.setItem('name','[1,2,3]');
 //setItem(a,value){
