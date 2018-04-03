@@ -1,0 +1,25 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<img src="../assets/imgs/1.jpg" >
+  <ion-list id="list">
+
+    <ion-item>
+      <ion-label stacked class="word">用户名：</ion-label>
+      <ion-input type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label stacked  class="word">密码：</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+  <button ion-button block id="btn" (onclick)="btn()">登录</button>
+   <a href="#">注册>></a>
+  
