@@ -1,0 +1,70 @@
+
+page-login{
+    text-align: center;
+    
+
+#content{
+    background-image: url("../assets/imgs/login/bg1.jpg");
+}
+#content-color{
+    background-color:rgba(5, 5, 5,0.5);
+}
+
+#top img{
+    float:left;
+    height:35px;
+    width:35px;
+}
+#top p{
+    text-align:center;
+    color:white;
+    font-size:18px;
+    margin-top:25px;
+}
+#center img{
+    width:156px;
+    height:66px;
+    margin-top:40px;
+}
+#center p{
+    color:white;
+    font-size:15px;
+    margin-top:-10px;
+}
+#input{
+    width:250px;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+::-moz-placeholder{
+    color:white;
+    font-size:11px;
+
+}
+
+#button {
+    text-align: center;
+}
+#button .login{
+    background-color: #ffcc33;
+    height:40px;
+    width:250px;
+    border-radius: 25px;
+    color:black;
+    font-size:16px;
+}
+#button .signup{
+    background-color:rgba(0,0,0,0);
+    height:40px;
+    width:250px;
+    border-radius: 25px;
+    color:#ffcc33;
+    font-size:16px;
+    border:1px solid #ffcc33;
+}
+#button a{
+    text-decoration: none;
+    color:white;
+    font-weight: 100;
+    font-size:12px;
+}}

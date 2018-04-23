@@ -1,0 +1,87 @@
+<!--
+  Generated template for the MinePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color='yellow'>
+      
+        <ion-title id="return">
+          <img src="assets/imgs/publish/return.png">
+         我的
+        </ion-title>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item style="text-align:center;"class="head">
+    <img src="assets/imgs/1.jpg"> 
+    
+    <h5>张扬</h5>
+    <p class="adress">北京市 | 海淀区</p>
+    <p class="work">北京资芽网络有限公司</p>
+  </ion-item><button ion-button class="button">编辑资料</button>
+
+
+  <ion-list class="images">
+      <ion-item-group>
+      <ion-item>
+        <ion-icon name="leaf" item-start></ion-icon>
+        芽币
+        <img src="assets/imgs/publishlist/go.png" item-end>
+      </ion-item>
+      <ion-item (click)="publish()">
+          <ion-icon name="md-brush" item-start></ion-icon>
+         我发布的
+          <img src="assets/imgs/publishlist/go.png" item-end>
+      </ion-item>
+      <ion-item>
+          <ion-icon name="md-contacts" item-start></ion-icon>
+         我合作的
+          <img src="assets/imgs/publishlist/go.png" item-end>
+      </ion-item>
+      </ion-item-group>
+
+      <ion-item-group>
+          <ion-item>
+            <ion-icon name="md-cube" item-start></ion-icon>
+            我的收藏
+            <img src="assets/imgs/publishlist/go.png" item-end>
+          </ion-item>
+          <ion-item>
+              <ion-icon name="md-filing" item-start></ion-icon>
+           我的草稿箱
+              <img src="assets/imgs/publishlist/go.png" item-end>
+          </ion-item>
+          <ion-item>
+              <ion-icon name="md-play" item-start></ion-icon>
+            视频发布
+              <img src="assets/imgs/publishlist/go.png" item-end>
+          </ion-item>
+          <ion-item>
+              <ion-icon name="md-book" item-start></ion-icon>
+             完善信息
+              <img src="assets/imgs/publishlist/go.png" item-end>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="logo-vimeo" item-start></ion-icon>
+             vip等级
+                <img src="assets/imgs/publishlist/go.png" item-end>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="md-person" item-start></ion-icon>
+              账户安全
+                <img src="assets/imgs/publishlist/go.png" item-end>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="md-cog" item-start></ion-icon>
+              设置
+                <img src="assets/imgs/publishlist/go.png" item-end>
+            </ion-item>
+          </ion-item-group>
+  </ion-list>
+</ion-content>
